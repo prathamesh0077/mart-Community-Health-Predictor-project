@@ -1,38 +1,42 @@
-# Byte-compiled / optimized / DLL files
+# Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
+# Virtual environment
+venv/
+.env/
+env/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Environment files
-.env
-.venv/
-env/
-venv/
-
-# VSCode settings
+# VS Code settings
 .vscode/
+
+# macOS system files
+.DS_Store
+
+# PyCharm settings
+.idea/
+
+# Model files
+*.joblib
+*.pkl
+
+# Logs and cache
+*.log
+*.cache/
+.cache/
 
 # Streamlit cache
 .streamlit/
 
-# Model and data files
-*.pkl
-*.joblib
-*.csv
-*.xlsx
+# Environment variables
+*.env
+
+# Lottie JSON files (if downloaded locally)
 *.json
 
-# OS files
-.DS_Store
+# OS generated files
 Thumbs.db
-
-# Log files
-*.log
